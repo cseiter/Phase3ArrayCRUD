@@ -3,7 +3,8 @@ def create_an_empty_array
 end
 
 def create_an_array
-    
+    arrNew = (1..4).to_a
+    arrNew
 end
 
 def add_element_to_end_of_array(array, element)
@@ -33,3 +34,5 @@ end
 def retrieve_last_element_from_array(array)
   
 end
+
+create_an_array
